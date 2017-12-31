@@ -122,7 +122,7 @@ body::after {
 .avatar-popout[style*='315153585966940160']::after,
 .avatar-profile[style*='315153585966940160']::after,
 .message-group .avatar-large[style*='315153585966940160'] + .comment .user-name::after {
-    content: "[STREAMER]"
+    content: "XD"
 }
 
 .avatar-small[style*='312224046320189450'] + .member-inner .member-username,
