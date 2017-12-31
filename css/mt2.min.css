@@ -115,14 +115,14 @@ body::after {
 .avatar-popout[style*='312224046320189450']::after,
 .avatar-profile[style*='312224046320189450']::after,
 .message-group .avatar-large[style*='312224046320189450'] + .comment .user-name::after {
-    content: "[DEV] Metin2"
+    content: "[DEV]"
 }
 .avatar-small[style*='315153585966940160'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='315153585966940160'] + .member-inner .member-username::after,
 .avatar-popout[style*='315153585966940160']::after,
 .avatar-profile[style*='315153585966940160']::after,
 .message-group .avatar-large[style*='315153585966940160'] + .comment .user-name::after {
-    content: "XD"
+    content: "[STREAMER]"
 }
 
 .avatar-small[style*='312224046320189450'] + .member-inner .member-username,
@@ -1709,13 +1709,7 @@ a:link {
 .guild-settings-modal-members .guild-settings-modal-list .member+.member {
     border-top: 1px solid hsla(0, 0%, 100%, 0.04)
 }
-.channel-members-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-width: 145px;
-    position: relative;
-}
+
 .channel-members h2 {
     color: var(--main-color)!important;
     font-size: 11px;
@@ -1729,7 +1723,7 @@ a:link {
     padding: 4px 8px;
     border: 1px solid;
     border-color: transparent;
-    width: 145px;
+    width: 190px;
     margin-left: 15px;
     text-align: center
 }
