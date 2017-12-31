@@ -89,6 +89,21 @@ body::after {
     }
 }
 
+.avatar-large,
+.avatar-profile,
+.avatar-small,
+.avatar-xlarge,
+.avatar-xsmall,
+.avatar-xxlarge,
+.avatar-1BXaQj,
+.mask-2vyqAW,
+.avatar-hint,
+[class*="popout-"] [class*="avatar"],
+[class*="popout-"] [class*="image"],
+.avatar-wrapper {
+    border-radius: 25% !important;
+}
+
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after {
@@ -5096,14 +5111,14 @@ div.control-group .shortcut-recorder input[type=text]:focus {
 }
 
 .btn-confirm .icon.icon-logout::after {
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABYElEQVRoQ+1agW3CMBC8n6CM0A1aJiidALppmYAR6AhscpXVRDJp4M8QpASdpUiRYvt9939+23HgwYXkFsCue04RsX6EyZi6U5IrAPXgz0xExOQ2i4FJOiX5Wg1+c42c2QEh+V4NvrxLZRZASH5U8V680Fx6ICQpNP6OiC+hnh5aJI8AZOYvGW8EAtWDskZEBlPy1IH19tT6BpJSf6GCyrA9kjFsjQwYcmglIeNZK9NUlhCz9p61VIayetl3i91iHzDghOiE+LfxUicHJ8Rsmn22hPjZATr0wNRQmVVmH9ufLxIIgOfwyJhOluqRf1gMxGstr7Wux4A1Yo1YI9bIGQOzWjR6iQLAHsl2fD5F8SnKQk5R1FBV12Ytx0E/AN4yLWXfG/+z7yOiXMhJiwyk9NRd2yh3TfrnJbVwo0aa+21tUNe/BZgaKq3javJI1rkCbBFAhkBHgJWLZ3ffZxkj9BfvKHpCc6VlmAAAAABJRU5ErkJggg==');
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/exit.svg);
 }
 .btn-confirm.active .icon.icon-logout::after {
     transform: rotateY(180deg)
 }
 
 .btn-confirm .icon.icon-delete::after {
-    background-image: url('https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/delete.svg')
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/delete.svg)
 }
 
 .btn-confirm.active .icon::after,
