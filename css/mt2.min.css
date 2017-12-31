@@ -101,7 +101,7 @@ body::after {
 [class*="popout-"] [class*="avatar"],
 [class*="popout-"] [class*="image"],
 .avatar-wrapper {
-    border-radius: 10% !important;
+    border-radius: 0 !important;
 }
 
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
@@ -7508,6 +7508,7 @@ pre:hover .copybutton {
 
 .container-iksrDt .status {
     border: none!important;
+	background-color: none!important;
     z-index: 2
 }
 
