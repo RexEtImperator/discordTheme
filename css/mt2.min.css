@@ -1,6 +1,5 @@
 @import "https://omgdani.github.io/ClearVisionFixes/ClearVisionFixes.css";
-@import "https://rexetimperator.github.io/discordTheme/fonts/whitney-blackitalicsc.otf";
-@import "https://fonts.googleapis.com/css?family=Oswald:700";
+@import "https://fonts.googleapis.com/css?family=Oswald";
 .channels-wrap > [class*="container"]:last-child::after {
     content: "Metin2 v1.0";
     color: #fff;
@@ -67,7 +66,13 @@ body::after {
         -webkit-filter: blur(10px);
         filter: blur(10px)
     }
+	40% {
+        opacity: .4;
+        -webkit-filter: blur(5px);
+        filter: blur(5px)
+    }
     70% {
+		opacity: .7;
         -webkit-filter: blur(0px);
         filter: blur(0px)
     }
@@ -82,7 +87,13 @@ body::after {
         -webkit-filter: blur(10px);
         filter: blur(10px)
     }
+	40% {
+        opacity: .4;
+        -webkit-filter: blur(5px);
+        filter: blur(5px)
+    }
     70% {
+		opacity: .7;
         -webkit-filter: blur(0px);
         filter: blur(0px)
     }
@@ -96,7 +107,7 @@ body::after {
 }
 .wordmark-2L03Wr::after {
     content: var(--theme-name)" "var(--version-content);
-    font-family: "Whitney";
+    font-family: "Oswald";
     color: #fff;
     font-size: 16px;
     font-weight: 600;
