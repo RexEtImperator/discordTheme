@@ -101,7 +101,7 @@ body::after {
 [class*="popout-"] [class*="avatar"],
 [class*="popout-"] [class*="image"],
 .avatar-wrapper {
-    border-radius: 25% !important;
+    border-radius: 10% !important;
 }
 
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
@@ -7465,32 +7465,14 @@ pre:hover .copybutton {
     transition: all .15s ease-in-out
 }
 
-.container-iksrDt .avatar-small:hover,
-.container-iksrDt .avatar-small.popout-open {
-    width: 50px;
-    height: 50px;
-    opacity: 1
-}
-
-.bd-minimal .container-iksrDt .avatar-small:hover,
-.bd-minimal .container-iksrDt .avatar-small.popout-open {
-    width: 40px;
-    height: 40px
-}
-
 .container-iksrDt .avatar-small::after {
-    content: "Status";
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    color: #fff;
-    font-size: 5px;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
     line-height: 30px;
     vertical-align: middle;
-    border-radius: 50%;
+    border-radius: 10%;
     -webkit-box-shadow: inset 0 0 70px rgba(0, 0, 0, .75);
     box-shadow: inset 0 0 70px rgba(0, 0, 0, .75);
     opacity: 0;
@@ -7526,8 +7508,6 @@ pre:hover .copybutton {
 
 .container-iksrDt .status {
     border: none!important;
-    top: calc(90% - 6.5px);
-    left: calc(90% - 6.5px);
     z-index: 2
 }
 
