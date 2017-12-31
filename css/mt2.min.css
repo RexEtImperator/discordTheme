@@ -89,60 +89,66 @@ body::after {
     }
 }
 
+.avatar-large,
+.avatar-profile,
+.avatar-small,
+.avatar-xlarge,
+.avatar-xsmall,
+.avatar-xxlarge,
+.avatar-1BXaQj,
+.mask-2vyqAW,
+.avatar-hint,
+[class*="popout-"] [class*="avatar"],
+[class*="popout-"] [class*="image"],
+.avatar-wrapper {
+    border-radius: 25% !important;
+}
+
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after {
     content: "Nitro"
 }
 
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
-.avatar-popout[style*='144881947557101568']::after,
-.avatar-profile[style*='144881947557101568']::after,
-.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after {
-    content: "CV Dev"
+.avatar-small[style*='312224046320189450'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='312224046320189450'] + .member-inner .member-username::after,
+.avatar-popout[style*='312224046320189450']::after,
+.avatar-profile[style*='312224046320189450']::after,
+.message-group .avatar-large[style*='312224046320189450'] + .comment .user-name::after {
+    content: "[DEV] Metin2"
+}
+.avatar-small[style*='315153585966940160'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='315153585966940160'] + .member-inner .member-username::after,
+.avatar-popout[style*='315153585966940160']::after,
+.avatar-profile[style*='315153585966940160']::after,
+.message-group .avatar-large[style*='315153585966940160'] + .comment .user-name::after {
+    content: "XD"
 }
 
-.avatar-profile[style*='144881947557101568']::after {
-    content: "ClearVision DEV"
-}
-
-.avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
-.avatar-popout[style*='81388395867156480']::after,
-.avatar-profile[style*='81388395867156480']::after,
-.message-group .avatar-large[style*='81388395867156480'] + .comment .user-name::after {
-    content: "BD Dev"
-}
-
-.avatar-profile[style*='312224046320189450']::after {
-    content: "[DEV] Metin2 "
-}
-
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username,
-.avatar-small[style*='81388395867156480'] + .member-inner .member-username {
+.avatar-small[style*='312224046320189450'] + .member-inner .member-username,
+.avatar-small[style*='315153585966940160'] + .member-inner .member-username {
     position: relative
 }
 
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after,
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
-.avatar-popout[style*='144881947557101568']::after,
-.avatar-profile[style*='144881947557101568']::after,
-.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after,
-.avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
-.avatar-popout[style*='81388395867156480']::after,
-.avatar-profile[style*='81388395867156480']::after,
-.message-group .avatar-large[style*='81388395867156480'] + .comment .user-name::after {
+.avatar-small[style*='312224046320189450'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='312224046320189450'] + .member-inner .member-username::after,
+.avatar-popout[style*='312224046320189450']::after,
+.avatar-profile[style*='312224046320189450']::after,
+.message-group .avatar-large[style*='312224046320189450'] + .comment .user-name::after,
+.avatar-small[style*='315153585966940160'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='315153585966940160'] + .member-inner .member-username::after,
+.avatar-popout[style*='315153585966940160']::after,
+.avatar-profile[style*='315153585966940160']::after,
+.message-group .avatar-large[style*='315153585966940160'] + .comment .user-name::after {
     position: absolute;
     height: 14px;
     padding: 1px 2px;
     border-radius: 3px;
     background: rgba(0, 0, 0, 0.5);
-    color: hsla(0, 0%, 100%, 0.8);
+    color: hsla(0,0%,90%,0.8);
     font-size: 10px;
     text-align: center;
     font-weight: 700;
@@ -155,12 +161,12 @@ body::after {
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after,
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
-.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after,
-.avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
-.message-group .avatar-large[style*='81388395867156480'] + .comment .user-name::after {
+.avatar-small[style*='312224046320189450'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='312224046320189450'] + .member-inner .member-username::after,
+.message-group .avatar-large[style*='312224046320189450'] + .comment .user-name::after,
+.avatar-small[style*='315153585966940160'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='315153585966940160'] + .member-inner .member-username::after,
+.message-group .avatar-large[style*='315153585966940160'] + .comment .user-name::after {
     position: relative;
     background: rgba(100, 100, 100, 0.3);
     color: hsla(0, 0%, 100%, 0.6);
@@ -168,14 +174,14 @@ body::after {
 }
 
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
-.avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after {
+.avatar-small[style*='312224046320189450'] + .member-inner .member-username-inner::after,
+.avatar-small[style*='315153585966940160'] + .member-inner .member-username-inner::after {
     top: -1px;
     font-size: 11px
 }
 
-.avatar-popout[style*='144881947557101568']::after,
-.avatar-popout[style*='81388395867156480']::after {
+.avatar-popout[style*='312224046320189450']::after,
+.avatar-popout[style*='315153585966940160']::after {
     padding: 3px;
     font-size: 15px;
     top: 5%;
@@ -185,8 +191,8 @@ body::after {
     transition: all .1s ease-in-out
 }
 
-.avatar-popout[style*='144881947557101568']:hover::after,
-.avatar-popout[style*='81388395867156480']:hover::after {
+.avatar-popout[style*='312224046320189450']:hover::after,
+.avatar-popout[style*='315153585966940160']:hover::after {
     color: #fff;
     font-size: 20px;
     padding: 5px 4px;
@@ -194,8 +200,8 @@ body::after {
     right: -25%
 }
 
-.avatar-profile[style*='144881947557101568']::after,
-.avatar-profile[style*='81388395867156480']::after {
+.avatar-profile[style*='312224046320189450']::after,
+.avatar-profile[style*='315153585966940160']::after {
     background: rgba(0, 0, 0, 0.3);
     padding: 3px;
     font-size: 15px;
