@@ -1,5 +1,6 @@
 @import "https://omgdani.github.io/ClearVisionFixes/ClearVisionFixes.css";
-@import url(https://rexetimperator.github.io/discordTheme/fonts/whitney-blackitalicsc.otf);
+@import "https://rexetimperator.github.io/discordTheme/fonts/whitney-blackitalicsc.otf";
+@import "https://fonts.googleapis.com/css?family=Oswald:700";
 .channels-wrap > [class*="container"]:last-child::after {
     content: "Metin2 v1.0";
     color: #fff;
