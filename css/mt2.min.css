@@ -1703,7 +1703,13 @@ a:link {
 .guild-settings-modal-members .guild-settings-modal-list .member+.member {
     border-top: 1px solid hsla(0, 0%, 100%, 0.04)
 }
-
+.channel-members-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 145px;
+    position: relative;
+}
 .channel-members h2 {
     color: var(--main-color)!important;
     font-size: 11px;
