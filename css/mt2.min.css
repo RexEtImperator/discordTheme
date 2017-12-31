@@ -89,21 +89,6 @@ body::after {
     }
 }
 
-.avatar-large,
-.avatar-profile,
-.avatar-small,
-.avatar-xlarge,
-.avatar-xsmall,
-.avatar-xxlarge,
-.avatar-1BXaQj,
-.mask-2vyqAW,
-.avatar-hint,
-[class*="popout-"] [class*="avatar"],
-[class*="popout-"] [class*="image"],
-.avatar-wrapper {
-    border-radius: 25% !important;
-}
-
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after {
@@ -5097,7 +5082,11 @@ div.control-group .shortcut-recorder input[type=text]:focus {
     opacity: .7
 }
 
-.btn-confirm .icon {
+.btn-confirm .icon::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px;
@@ -5106,10 +5095,10 @@ div.control-group .shortcut-recorder input[type=text]:focus {
     transition: all .3s ease-in-out
 }
 
-.btn-confirm .icon.icon-logout {
+.btn-confirm .icon.icon-logout::after {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABYElEQVRoQ+1agW3CMBC8n6CM0A1aJiidALppmYAR6AhscpXVRDJp4M8QpASdpUiRYvt9939+23HgwYXkFsCue04RsX6EyZi6U5IrAPXgz0xExOQ2i4FJOiX5Wg1+c42c2QEh+V4NvrxLZRZASH5U8V680Fx6ICQpNP6OiC+hnh5aJI8AZOYvGW8EAtWDskZEBlPy1IH19tT6BpJSf6GCyrA9kjFsjQwYcmglIeNZK9NUlhCz9p61VIayetl3i91iHzDghOiE+LfxUicHJ8Rsmn22hPjZATr0wNRQmVVmH9ufLxIIgOfwyJhOluqRf1gMxGstr7Wux4A1Yo1YI9bIGQOzWjR6iQLAHsl2fD5F8SnKQk5R1FBV12Ytx0E/AN4yLWXfG/+z7yOiXMhJiwyk9NRd2yh3TfrnJbVwo0aa+21tUNe/BZgaKq3javJI1rkCbBFAhkBHgJWLZ3ffZxkj9BfvKHpCc6VlmAAAAABJRU5ErkJggg==');
 }
-.btn-confirm.active .icon.icon-logout {
+.btn-confirm.active .icon.icon-logout::after {
     transform: rotateY(180deg)
 }
 
@@ -9908,9 +9897,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:hover::after {
-    opacity: .7
+    opacity: .9
 }
-
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"]::after,
 #bd-settings-sidebar .ui-tab-bar-item.selected::after {
     opacity: 1
