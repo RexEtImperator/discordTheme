@@ -6,10 +6,10 @@
     font-weight: 700;
     text-align: center;
     position: absolute;
-    bottom: -1px;
+    bottom: 0;
     left: 0;
     right: 0;
-    opacity: .3
+    opacity: .7
 }
 
 body {
@@ -31,8 +31,8 @@ body::after,
     height: 100%;
     background-size: cover;
     background-position: center;
-    -webkit-filter: brightness(var(--background-brightness)) blur(var(--background-blur));
-    filter: brightness(var(--background-brightness)) blur(var(--background-blur))
+    -webkit-filter: brightness(var(--background-brightness));
+    filter: brightness(var(--background-brightness))
 }
 
 .callout-backdrop::after {
@@ -101,7 +101,7 @@ body::after {
 [class*="popout-"] [class*="avatar"],
 [class*="popout-"] [class*="image"],
 .avatar-wrapper {
-    border-radius: 0 !important;
+    border-radius: 0!important;
 }
 
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
