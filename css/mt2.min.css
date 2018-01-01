@@ -1657,9 +1657,9 @@ a:link {
 
 .mention {
     color: #ddd!important;
-    background: rgba(115, 139, 215, .1)!important;
-    padding: 1px 4px;
-    border-radius: 6px;
+    background: rgba(173, 44, 41, 0.2)!important;
+    padding: 1px 2px;
+    border-radius: 4px;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -2100,25 +2100,18 @@ a:link {
 }
 
 .discriminator {
-    font-size: 11px!important;
-    color: hsla(0, 0%, 100%, 0.7)!important;
-    margin-left: 8px!important;
+    font-size: 13px!important;
+    color: rgba(255,255,255,0.7)!important;
+    margin-left: 0;
     border-radius: 5px!important;
     background: rgba(0, 0, 0, 0.19)!important;
     font-weight: 700!important;
     padding: 3px;
-    -webkit-transition: all .2s ease-in-out!important;
-    -moz-transition: all .2s ease-in-out!important;
-    -o-transition: all .2s ease-in-out!important;
-    -ms-transition: all .2s ease-in-out!important;
-    transition: all .2s ease-in-out!important
 }
 
 .discriminator:hover {
     background: rgba(0, 0, 0, 0.32)!important;
     color: #fff!important;
-    font-size: 14px!important;
-    font-weight: 700!important
 }
 
 .guilds-wrapper .guilds-error {
@@ -5063,12 +5056,12 @@ div.control-group .shortcut-recorder input[type=text]:focus {
     color: #fff!important;
     border: none!important;
     padding: 3px;
-    opacity: .3!important
+    opacity: .6!important
 }
 
 .account .discriminator:hover {
     background: transparent!important;
-    opacity: .7!important
+    opacity: 1!important
 }
 
 .settings-wrapper:not(.user-settings-modal-connections),
@@ -5624,15 +5617,14 @@ ul.bda-slist {
 }
 
 .context-menu .item.danger {
-    background-color: #a93d3d;
-    color: hsla(0, 0%, 100%, .6)!important;
+    background-color: #fff;
+    color: rgba(169,61,61,0.6);
     width: calc(100% - 4px);
     margin: 2px
 }
 
 .context-menu .item.danger:hover {
-    background-color: #f04747;
-    color: #fff!important
+	color: rgba(169,61,61,1);
 }
 
 .message-group .comment .attachment .upload > .filename {
@@ -7535,6 +7527,7 @@ pre:hover .copybutton {
 .container-iksrDt .status {
     border: none!important;
 	background-color: none!important;
+	background: none!important;
     z-index: 2
 }
 
