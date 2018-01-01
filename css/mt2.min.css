@@ -195,7 +195,7 @@ body::after {
 .guild-settings-modal-members .avatar-small[style*='396628331975409665'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='396628331975409665'] + .comment .user-name::after {
     position: relative;
-    background: rgba(100, 100, 100, 0.3);
+    background: rgba(108,108,108,0.4);
     color: hsla(0, 0%, 100%, 0.6);
     margin-left: 6px
 }
@@ -1739,7 +1739,7 @@ a:link {
 
 .channel-members h2 {
     color: var(--main-color)!important;
-    font-size: 11px;
+    font-size: 12px;
 	background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
     background-size: 100% 3px;
     background-position: 0 0, 0 100%;
@@ -2184,7 +2184,6 @@ div.control-group .shortcut-recorder input[type=text] {
 .channel-members .member:hover .avatar-small {
     -webkit-filter: none!important;
     filter: none!important;
-    filter: none;
     position: relative;
     -webkit-transition: all .8s ease-out;
     -moz-transition: all .8s ease-out;
@@ -7998,12 +7997,6 @@ pre:hover .copybutton {
     border: none
 }
 
-.status-online {
-    background-color: #43b581;
-    -webkit-box-shadow: 0 0 3px #43b581, 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px #43b581, 0 0 5px rgba(0, 0, 0, 0.5)
-}
-
 .user-popout .avatar-wrapper .avatar-popout .status-online {
     -webkit-box-shadow: 0 0 5px #43b581, 0 0 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 5px #43b581, 0 0 5px rgba(0, 0, 0, 0.5)
@@ -8012,12 +8005,6 @@ pre:hover .copybutton {
 #user-profile-modal .avatar-profile .status-online {
     -webkit-box-shadow: 0 0 8px #43b581, 0 0 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 8px #43b581, 0 0 5px rgba(0, 0, 0, 0.5)
-}
-
-.status-idle {
-    background-color: #faa61a;
-    -webkit-box-shadow: 0 0 3px #faa61a, 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px #faa61a, 0 0 5px rgba(0, 0, 0, 0.5)
 }
 
 .user-popout .avatar-wrapper .avatar-popout .status-idle {
@@ -8030,12 +8017,6 @@ pre:hover .copybutton {
     box-shadow: 0 0 8px #faa61a, 0 0 5px rgba(0, 0, 0, 0.5)
 }
 
-.status-dnd {
-    background-color: #982929;
-    -webkit-box-shadow: 0 0 3px #982929, 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px #982929, 0 0 5px rgba(0, 0, 0, 0.5)
-}
-
 .user-popout .avatar-wrapper .avatar-popout .status-dnd {
     -webkit-box-shadow: 0 0 5px #982929, 0 0 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 5px #982929, 0 0 5px rgba(0, 0, 0, 0.5)
@@ -8044,12 +8025,6 @@ pre:hover .copybutton {
 #user-profile-modal .avatar-profile .status-dnd {
     -webkit-box-shadow: 0 0 5px #982929, 0 0 8px, 0 0 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 5px #982929, 0 0 8px, 0 0 5px rgba(0, 0, 0, 0.5)
-}
-
-.status-streaming {
-    background-color: #593695;
-    -webkit-box-shadow: 0 0 3px #593695, 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px #593695, 0 0 5px rgba(0, 0, 0, 0.5)
 }
 
 .user-popout .avatar-wrapper .avatar-popout .status-streaming {
@@ -8062,12 +8037,6 @@ pre:hover .copybutton {
     box-shadow: 0 0 5px #593695, 0 0 8px, 0 0 5px rgba(0, 0, 0, 0.5)
 }
 
-.status-offline {
-    background-color: gray;
-    -webkit-box-shadow: 0 0 3px #808080, 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px #808080, 0 0 5px rgba(0, 0, 0, 0.5)
-}
-
 .user-popout .avatar-wrapper .avatar-popout .status-offline {
     -webkit-box-shadow: 0 0 5px #808080, 0 0 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 5px #808080, 0 0 5px rgba(0, 0, 0, 0.5)
@@ -8076,12 +8045,6 @@ pre:hover .copybutton {
 #user-profile-modal .avatar-profile .status-offline {
     -webkit-box-shadow: 0 0 5px #808080, 0 0 8px, 0 0 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 5px #808080, 0 0 8px, 0 0 5px rgba(0, 0, 0, 0.5)
-}
-
-.status-invisible {
-    background-color: #979faa;
-    -webkit-box-shadow: 0 0 3px #979faa, 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px #979faa, 0 0 5px rgba(0, 0, 0, 0.5)
 }
 
 .user-popout .avatar-wrapper .avatar-popout .status-invisible {
